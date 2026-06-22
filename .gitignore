@@ -1,0 +1,19 @@
+# Python προσωρινά αρχεία
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Εικονικά περιβάλλοντα (Virtual Environments)
+.venv/
+venv/
+ENV/
+env/
+
+# Τοπικά δεδομένα εφαρμογής (Δεν θέλουμε να ανέβει η προσωπική βάση ή οι εικόνες σας)
+data/database.db
+data/images/*
+!data/images/.gitkeep
+
+# Αρχεία ρυθμίσεων λειτουργικού συστήματος
+.DS_Store
+Thumbs.db
